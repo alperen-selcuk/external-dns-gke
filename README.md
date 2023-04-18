@@ -1,4 +1,4 @@
-## pre-req
+# pre-req
 
 1- google service account
 
@@ -10,7 +10,7 @@
 
 5- demo ingress with subdomain
 
-# private ingress controller
+## private ingress controller
 
 helm install --name ingress-controller stable/nginx-ingress \
 --set controller.service.annotations."cloud\.google\.com/load-balancer-type"="Internal"
