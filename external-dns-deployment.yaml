@@ -33,7 +33,7 @@ spec:
       #     # uncomment below if static credentials are used  
           env:
             - name: GOOGLE_APPLICATION_CREDENTIALS
-              value: /etc/secrets/service-account/external-dns-sa.json
+              value: /etc/secrets/service-account/<service account token>
           volumeMounts:
             - name: google-service-account
               mountPath: /etc/secrets/service-account/
