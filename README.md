@@ -23,7 +23,9 @@ roles/container.nodeServiceAccount
 
 4- ingress controller nginx ingress with private ip
 
-5- demo ingress with subdomain
+5- external dns install
+
+6- demo ingress with subdomain
 
 ## private ingress controller
 
